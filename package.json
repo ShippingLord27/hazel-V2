@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "latest",
+    "@radix-ui/react-slot": "^1.1.1",
     "@remix-run/react": "latest",
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
@@ -42,6 +43,7 @@
     "yaml": "latest"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.9",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
