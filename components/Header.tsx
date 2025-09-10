@@ -75,7 +75,7 @@ export const Header = () => {
   }
 
   const NavLink = ({ href, children, end = false }: { href: string; children: React.ReactNode; end?: boolean }) => {
-    const isActive = end ? pathname === href : pathname.startsWith(href)
+    const isActive = end ? pathname === href : pathname?.startsWith(href) || false
     return (
       <Link href={href} className={isActive ? "active" : ""}>
         {children}
