@@ -1,9 +1,12 @@
 {
-  "name": "my-v0-project",
+  "name": "hazel-rental-marketplace",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "echo 'no build script'"
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "@google/generative-ai": "latest",
@@ -43,7 +46,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "postcss": "^8.5",
-    "tailwindcss": "4.1.13",
+    "tailwindcss": "^4.1.9",
     "typescript": "^5"
   }
 }
